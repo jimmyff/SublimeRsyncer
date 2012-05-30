@@ -1,0 +1,22 @@
+{
+  "folders": [
+
+/*  Example folder configurations:
+
+    {
+      "localPath"   : "/Users/jimmy/code/project1/",
+      "remote"      : "jimmy@virtual-machine:/var/www/project1/",
+      "exclude"     : [".svn", ".git"],
+      "deleteAfter" : false
+    },
+    {
+      "localPath"  : "/Users/jimmy/code/project2/",
+      "remote"     : "jimmy@173.194.41.130:/var/www/project2/",
+      "exclude"    : [".svn", ".git", "tmp"],
+      "deleteAfter": true
+    }
+    
+*/
+
+  ]
+}
