@@ -31,6 +31,7 @@ Edit your user settings Preferences -> Package Settings -> SublimtRsyncer -> Set
 
 An example config could look like so:
 
+```
 {
   "folders": [
   	{
@@ -47,6 +48,7 @@ An example config could look like so:
   	}
   ]
 }
+```
 
 When you next save a file using Sublime Text 2 it will itterate through the folders you've specified and if it matches the file saved it will attempt to rsync. The output can be monitored in the Sublime Text 2 console.
 
