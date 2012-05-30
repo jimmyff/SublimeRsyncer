@@ -5,6 +5,8 @@ A Sublime Text 2 plugin which allows you to rsync specific folders on save. Plea
 
 ## Installation via the Package Control plugin
 
+**Plugin not yet available via Package Control**
+
 The easiest way to install SublimeRsyncer is through Package Control, which can be found at this site: http://wbond.net/sublime_packages/package_control
 
 Once you install Package Control, restart ST2 and bring up the Command Palette (`Command+Shift+P` on OS X, `Control+Shift+P` on Linux/Windows). Select "Package Control: Install Package", wait while Package Control fetches the latest package list, then select SublimeRsyncer when the list appears. The advantage of using this method is that Package Control will automatically keep SublimeRsyncer up to date with the latest version.
@@ -35,16 +37,16 @@ An example config could look like so:
 {
   "folders": [
   	{
-  		"localPath"	  : "/Users/jimmy/code/project1/",
-  		"remote"		  : "jimmy@my-vm:/var/www/project1/",
-      "exclude"     : ["git", "svn"],
-      "deleteAfter" : true
+  		"localPath"	: "/Users/jimmy/code/project1/",
+  		"remote"	: "jimmy@my-vm:/var/www/project1/",
+  		"exclude"	: [".git", ".svn"],
+  		"deleteAfter"	: true
   	},
   	{
-  		"localPath"		: "/Users/jimmy/code/project2/",
-  		"remote"		: "jimmy@192.168.0.55:/var/www/project2/",
-      "exclude"     : ["git", "svn"],
-      "deleteAfter" : true
+  		"localPath"	: "/Users/jimmy/code/project2/",
+  		"remote"	: "jimmy@192.168.0.55:/var/www/project2/",
+  		"exclude"	: [".git", ".svn"],
+  		"deleteAfter"	: false
   	}
   ]
 }
